@@ -120,8 +120,10 @@
                 <h3>Stay updated</h3>
                 <p>Subscribe to our newsletter to stay updated.</p>
                 <form action="subscribe">
-                    <input type="text" placeholder="email address" required>
-                    <button class="subscribe">subscribe</button>
+                    <label for="text" class="visuallyHidden">Email Address</label>
+                    <input type="text" name="text" id="text" placeholder="email address" required>
+                    <label for="subscribe" class="visuallyHidden">Subscribe</label>
+                    <button class="subscribe" name="subscribe" id="subscribe">subscribe</button>
                 </form>
             </div>
         </div>

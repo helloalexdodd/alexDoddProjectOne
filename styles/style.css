@@ -33,12 +33,12 @@ header i {
 }
 
 nav {
-    width: 100%;
     height: 40px;
+    width: 100%;
 }
 
 section {
-  padding: 100px 0;
+    padding: 100px 0;
 }
 
 
@@ -89,11 +89,11 @@ p {
 }
 
 ul {
-    width: 40%;
     margin: 0 auto;
+    width: 40%;
+    list-style: none;
     font-size: 1rem;
     line-height: 1.45rem;
-    list-style: none;
     text-transform: capitalize;
     text-align: center;
 }
@@ -150,9 +150,9 @@ img {
 }
 
 .info {
-    width: 100%;
     padding-top: 0;
     padding-bottom: 0;
+    width: 100%;
 }
 
 .infoBox {
@@ -200,22 +200,22 @@ h4 {
 }
 
 .specialize .imageContainer {
-    font-size: 0;
     background-image:url(./../assets/image-2_2.jpg);
     background-position: center;
+    font-size: 0;
 }
 
 .footCare .imageContainer {
-    font-size: 0;
     background-image:url(./../assets/image-2-copy.jpg);
     background-position: center;
+    font-size: 0;
 }
 
 .givingBack {
-    clear: both;
     padding-left: 60px;
     padding-right: 60px;
     background: #f4f4f4
+    clear: both;
 }
 
 
@@ -225,8 +225,8 @@ h4 {
 
 .map {
     background: url(../assets/image-5.jpg);
-    height: 400px;
     padding: 20px;
+    height: 400px;
 }
 
 .iconContainer {
@@ -251,8 +251,8 @@ h4 {
 }
 
 .instagram {
-    clear: both;
     text-align: center;
+    clear: both;
 }
 
 .gallery {
@@ -262,12 +262,12 @@ h4 {
 }
 
 .gallery img {
-    width: calc(33.33% - 60px);
     margin: 0 20px;
+    width: calc(33.33% - 60px);
 }
 
 footer ul {
-  padding: 60px 0 20px;
+    padding: 60px 0 20px;
 }
 
 footer ul li {
@@ -290,7 +290,7 @@ footer p {
 }
 
 form input {
-    padding: 12px 170px 12px 6px;
+    padding: 12px 170px 12px 48px;
     width: 66%;
     font-family: 'Catamaran', sans-serif;
     -moz-appearance: none;
@@ -300,30 +300,30 @@ form input {
 }
 
 input::placeholder {
+    opacity: 1;
     color: #000;
     font-size: 0.9rem;
-    opacity: 1;
     /* text-indent: 20px; */
 }
 
 form button {
-    border: 4px solid #e85b26;
-    line-height: 1.45rem;
-    text-transform: uppercase;
     padding: 8px 30px;
     background-color: #186684;
+    border: 4px solid #e85b26;
     color: #fff;
     font-size: 1rem;    
+    line-height: 1.45rem;
+    text-transform: uppercase;
 }
 
 .footerFooter {
-    clear: both;
-    width: 100%;
-    height: 50px;
-    margin: 200px 0 0;
-    text-align: center;
     background: #000;
+    margin: 200px 0 0;
+    height: 50px;
+    width: 100%;
     color: #fcfcfc;
+    clear: both;
+    text-align: center;
 }
 
 .footerFooter p {
@@ -338,27 +338,27 @@ form button {
     }
 
     h1 {
-        width: 480px;
         padding: 15px;
-        line-height: 100px;
+        width: 480px;
         font-size: 6rem;
+        line-height: 100px;
     }
  
     ul li {
         margin: 20px;
     }
-    
-    .gallery img {
-        width: calc(33.33% - 30px);
-        margin: 10px;
-    }
 
     form input {
-        padding: 10px 60px 12px 6px;
+        padding-right: 60px;
     }
 
     form button {
         padding: 10px 20px;
+    }
+
+    .gallery img {
+        margin: 10px;
+        width: calc(33.33% - 30px);
     }
 }
 
@@ -376,6 +376,7 @@ form button {
     }
 
     h4 {
+        margin-bottom: 30px;
         font-size: 1.5rem;
     }
 
@@ -385,6 +386,22 @@ form button {
 
     header i {
         right: 26px;
+    }
+
+    footer ul li {
+        margin: 10px;
+        padding: 0 0 20px;
+    }
+
+    form input,
+    form button {
+        margin: 5px;
+        width: 100%;
+    }
+
+    input::placeholder {
+        font-size: 0.9rem;
+        text-align: center;
     }
 
     .fa-instagram {
@@ -404,8 +421,8 @@ form button {
     }
 
     .infoBoxLong {
-        width: 80%;        
         padding: 40px 0;
+        width: 80%;        
     }
 
     .givingBack {
@@ -430,8 +447,8 @@ form button {
     }
 
     .givingBack img {
-        width: 40%;
         margin-top: 40px;
+        width: 40%;
     }
 
     .hamburger {
@@ -452,15 +469,6 @@ form button {
         width: 80%;
     }
 
-    h4 {
-        margin-bottom: 30px;
-    }
-
-    footer ul li {
-        margin: 10px;
-        padding: 0 0 20px;
-    }
-
     .contact {
         padding-left: 160px;
     }
@@ -470,17 +478,6 @@ form button {
     }
  
     .form {
-        text-align: center;
-    }
-
-    form input,
-    form button {
-        width: 100%;
-        margin: 5px;
-    }
-
-    input::placeholder {
-        font-size: 0.9rem;
         text-align: center;
     }
 }
@@ -493,8 +490,8 @@ form button {
     }
 
     h3 {
-        font-size: 1.25rem;
         margin-bottom: 10px;
+        font-size: 1.25rem;
     }
 
     footer input {
@@ -502,14 +499,14 @@ form button {
     }
 
     .specialize {
-        padding: 0 40px 40px;
         margin: 0 auto;
+        padding: 0 40px 40px;
     }
 
     .infoBox {
-        width: 80%;
         margin: 0 auto;
         padding: 4% 4% 0;
+        width: 80%;
         text-align: center;
     }
 
@@ -527,8 +524,8 @@ form button {
     .imageContainer,
     .specialize .infoBox,
     .footCare .infoBox {
-        float: none;
         margin: 0 auto;
+        float: none;
     }
 
      .info .imageContainer {
@@ -569,11 +566,11 @@ form button {
 
     .contact,
     .form {
-        float: none;
-        width: 80%;
         margin: 0 auto;
         padding: 20px;
+        width: 80%;
         text-align: center;
+        float: none;
     }
 
     .footerFooter {
@@ -583,14 +580,14 @@ form button {
 
 @media (max-width: 680px) {
     header {
+        height: 50vh;
         background-position: 30%;
         background-size: 1400px;
-        height: 50vh;
     }
  
     h1 {
-        width: 270px;
         top: 150px;
+        width: 270px;
         font-size: 3.1rem;
         line-height: 3.5rem;
     }
@@ -605,9 +602,9 @@ form button {
     }
 
     .imageContainer img {
+        object-fit: cover;
         height: 25vh;
         width: 100%;
-        object-fit: cover;
     }
 
     .imageContainer:first-child img {
@@ -625,21 +622,21 @@ form button {
     }
 
     .givingBack img {
-        width: 60%;
         margin: 40px 0;
+        width: 60%;
     }
 
     section,
     .info,
     .givingBack {
-        padding-left: 0;
         padding-right: 0;
+        padding-left: 0;
     }
 
     .infoBox,
     .infoBoxLong {
-        padding-left: 30px;
         padding-right: 30px;
+        padding-left: 30px;
     }
 
     .infoBoxLong {
@@ -655,15 +652,15 @@ form button {
     }
 
     .iconContainer {
-        height: 45vh;
-        width: 200px;
         margin: 20px auto;
         padding: 40px 0;
+        height: 45vh;
+        width: 200px;
     }
 
     .icon {
-        width: 100%;
         margin: 0 auto;
+        width: 100%;
     }
 
     .icon,
