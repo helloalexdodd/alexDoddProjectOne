@@ -1,0 +1,13 @@
+Tuesday To Do
+DONEFix H1 in 1600 and at 438 (mayb get rid of one media altogether for h1)
+DONEfix nav at 678
+placeholder above 1178
+DONEsubscribe button above 1178
+update form with new best practices
+DONEmaybe Read Me's into anchor tags
+make gallery into list and anchor tags
+DONEmake social into anchor tags (and list?)
+review marking list
+DONEreview CSSLint and make code dry
+DONEariahidden on icons
+make functioning hamburger drop down

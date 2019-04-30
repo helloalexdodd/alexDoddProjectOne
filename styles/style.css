@@ -25,7 +25,6 @@ header {
     width: 100vw;
 }
 
-
 header i {
     position: absolute;
     right: 50px;
@@ -51,8 +50,8 @@ footer {
 
 h1 {
     position: relative;
-    top: 350px;
-    left: 760px;
+    top: 320px;
+    left: 600px;
     width: 600px;
     padding: 20px;
     background: rgba(227, 228, 234, 0.89);
@@ -63,7 +62,7 @@ h1 {
 }
 
 h2 {
-    margin: 0px;
+    margin: 0;
     color: #186684;
     font-size: 2.1rem;
 }
@@ -110,11 +109,12 @@ ul li:hover {
     color: #e85b26;
 }
 
-button {
+section a {
   padding: 8px 12px;
   background: none;
   border: 4px solid #e85b26;
   color: #186684;
+  text-decoration: none;
   line-height: 1.45rem;
   text-transform: uppercase;
 }
@@ -257,8 +257,8 @@ h4 {
 
 .gallery {
     margin-top: 100px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .gallery img {
@@ -292,8 +292,6 @@ footer p {
 form input {
     padding: 12px 170px 12px 6px;
     width: 66%;
-    border: none;
-    font-color: #000;
     font-family: 'Catamaran', sans-serif;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -301,18 +299,21 @@ form input {
     border: 0;
 }
 
-::placeholder {
+input::placeholder {
     color: #000;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     opacity: 1;
+    /* text-indent: 20px; */
 }
 
 form button {
-    width: calc(30% - 7px);
-    padding: 12px 30px;
+    border: 4px solid #e85b26;
+    line-height: 1.45rem;
+    text-transform: uppercase;
+    padding: 8px 30px;
     background-color: #186684;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1rem;    
 }
 
 .footerFooter {
@@ -337,8 +338,6 @@ form button {
     }
 
     h1 {
-        top: 320px;
-        left: 600px;
         width: 480px;
         padding: 15px;
         line-height: 100px;
@@ -425,7 +424,7 @@ form button {
         text-align: center;
     }
 
-    .infoBoxLong h2,
+    h2,
     .infoBoxLong p {
         text-align: left;
     }
@@ -470,8 +469,7 @@ form button {
         margin-bottom: 50px;
     }
  
-    .form h3,
-    .form p {
+    .form {
         text-align: center;
     }
 
@@ -497,13 +495,6 @@ form button {
     h3 {
         font-size: 1.25rem;
         margin-bottom: 10px;
-    }
-
-
-    footer ul,
-    footer h3,
-    footer p {
-        width: 100%
     }
 
     footer input {
@@ -600,7 +591,6 @@ form button {
     h1 {
         width: 270px;
         top: 150px;
-        left: 180px;
         font-size: 3.1rem;
         line-height: 3.5rem;
     }
@@ -610,24 +600,8 @@ form button {
         font-size: 1.3rem;
     }
 
-    .fa-instagram {
-        top: 470px;
-        right: 25px;
-    }
-
-    .fa-facebook {
-        top: 470px;
-        right: 75px;
-    }
-
-    .fa-snapchat-ghost {
-        top: 470px;
-        right: 125px;
-    }
-
-    .fa-twitter {
-        top: 470px;
-        right: 170px;
+    .fab {
+        display: none;  
     }
 
     .imageContainer img {
