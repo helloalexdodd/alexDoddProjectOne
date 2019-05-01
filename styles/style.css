@@ -6,6 +6,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 .visuallyHidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
+/* some broad styles */
+
 html {
     font-size: 125%;
     font-family: 'Nova Flat', cursive;
@@ -116,6 +118,9 @@ section a {
   text-transform: uppercase;
 }
 
+/* end of broad styles */
+/* some header styles */
+
 header i {
     position: absolute;
     right: 50px;
@@ -147,6 +152,9 @@ header i {
     width: 30px;
     visibility: hidden;
 }
+
+/* end of header styles */
+/* some main styles */
 
 .info {
     padding-top: 0;
@@ -265,6 +273,9 @@ h4 {
     width: calc(33.33% - 60px);
 }
 
+/* end of main styles */
+/* some footer styles */
+
 footer ul {
     padding: 60px 0 20px;
 }
@@ -312,7 +323,6 @@ input::placeholder {
     opacity: 1;
     color: #000;
     font-size: 0.9rem;
-    /* text-indent: 20px; */
 }
 
 .footerFooter {
@@ -330,6 +340,8 @@ input::placeholder {
     color: #fcfcfc;
 }
 
+/* end of footer styles */
+/* first media query */
 
 @media (max-width: 1344px) {
     header {
@@ -361,7 +373,13 @@ input::placeholder {
     }
 }
 
+/* end of first media query */
+/* second media query */
+
 @media (max-width: 1180px) {
+
+/* some header styles */
+
     nav {
         visibility: hidden;
     }
@@ -372,6 +390,7 @@ input::placeholder {
 
     h2 {
         font-size: 2rem;
+        text-align: left; /* made the decision to place this here instead of grouping down below with the infoBoxLong p for better organization of styles*/
     }
 
     h4 {
@@ -407,6 +426,9 @@ input::placeholder {
         visibility: visible;
     }
 
+/* end of header styles */
+/* some main styles */
+
     .infoBoxLong,
     .givingBack {
         margin: 0 auto;
@@ -428,7 +450,6 @@ input::placeholder {
         float: none;
     }
 
-    h2,
     .infoBoxLong p {
         text-align: left;
     }
@@ -451,6 +472,9 @@ input::placeholder {
         height: 220px;
         width: 80%;
     }
+
+/* end of main styles */
+/* some footer styles */
 
     .contact {
         padding-left: 160px;
@@ -480,8 +504,14 @@ input::placeholder {
         text-align: center;
     }
 }
+/* end of footer styles */
+/* end of second media query */
+/* third media query */
 
 @media (max-width: 981px) {
+
+/* some header styles */
+
     h1 {
         position: absolute;
         left: auto;
@@ -492,6 +522,9 @@ input::placeholder {
         margin-bottom: 10px;
         font-size: 1.25rem;
     }
+
+/* end of header styles */
+/* some main styles */
 
     .info .imageContainer {
         background-image: none;
@@ -550,6 +583,9 @@ input::placeholder {
         padding: 20px;
     }
 
+/* end of main styles */
+/* some footer styles */
+
     .contact,
     .form {
         margin: 0 auto;
@@ -573,7 +609,14 @@ input::placeholder {
     }
 }
 
+/* end of footer styles */
+/* end of third media query */
+/* fourth media query */
+
 @media (max-width: 680px) {
+
+/* some header styles */
+
     header {
         height: 50vh;
         background-position: 30%;
@@ -592,15 +635,18 @@ input::placeholder {
         font-size: 1.3rem;
     }
 
+    .fab {
+        display: none;  
+    }
+
+/* end of header styles */
+/* some main styles */
+
     section,
     .info,
     .givingBack {
         padding-right: 0;
         padding-left: 0;
-    }
-
-    .fab {
-        display: none;  
     }
 
     .imageContainer,
@@ -680,11 +726,21 @@ input::placeholder {
     }
 }
 
+/* end of main styles */
+/* end of fourth media query */
+/* fifth media query */
+
 @media (max-width: 420px) {
+    
+/* one header style */
+
     h1 {
         left: auto;
         width: 100%;
     }
+
+/* end of header style */
+/* some main styles */
     
     .iconContainer {
         width: 230px;
@@ -697,6 +753,9 @@ input::placeholder {
     .gallery img {
         margin: 10px;
     }
+
+/* end of main styles */
+/* some footer styles */
 
     footer ul {
         padding-bottom: 0;
@@ -714,3 +773,5 @@ input::placeholder {
         margin: 0;
     }
 }
+
+/* end of footer styles */
